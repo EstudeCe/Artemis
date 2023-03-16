@@ -16,7 +16,10 @@ Dentro da pasta class, você vai encontrar todo o conteúdo que foi ensinado nas
 
 ## Como vai funcionar
 
-- Faça o clone deste repositório na sua máquina;
-- Crie uma branch com um nome relacionado a task que vai realizar;
-- Faça os commits dentro da branch;
-- Assim que concluir a task, solicite o pull request para a branch main;
+- Faça um fork desse repositório
+- Clone o repositório que você fez o fork em seu computador
+- Crie uma branch com a sua feature: `git checkout -b minha-alteracao`
+- Envie suas alterações para a _staging area_: `git add .`
+- Faça um commit contando o que você fez: `git commit -m "feat: minha nova alteracao!"`
+- Faça um push para a sua branch: `git push origin minha-alteracao`
+- Agora é só abrir uma _pull request!_

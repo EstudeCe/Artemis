@@ -22,10 +22,10 @@ Uma solicitação de Pull Request é feita para unir o código em uma versão al
 
 ### Instalação e configuração do Git
 
-→ Download do Git
+→ Download do Git <br />
 [Git](https://git-scm.com/downloads)
 
-→ Configuração do Git
+→ Configuração do Git <br />
 [Documentação para config inicial](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
 
 Para realizar a configuração inicial, você precisa utilizar dois comandos:
@@ -38,13 +38,3 @@ git config --global user.email <seumaildogithub@github.com>
 ## GitHub
 
 O GitHub é uma rede social que utiliza o Git como sistema de versionamento. Ele serve basicamente para facilitar o controle de versões de um software
-
-- Serviço de hospedagem para o seu código
-
-https://git-scm.com/downloads
-
-Verifica versão do git: git --version
-
-```
-
-```
