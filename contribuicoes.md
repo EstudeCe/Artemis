@@ -6,12 +6,12 @@ Se não possui o git em sua máquina, [instale-o aqui](https://help.github.com/a
 
 ## Faça um _Fork_ deste repositório
 
-<img align="right" width="300" src="./github/fork.png" alt="forkar este repositório" />
+<img align="right" width="300" src="../github/fork.png" alt="forkar este repositório" />
 Faça um _Fork_ clicando no botão "_Fork_" no topo desta página, uma cópia deste repositório será criada em sua conta.
 
 ## Clone o repositório
 
-<img align="right" width="300" src="./github/clone.png" alt="clonar este repositório" />
+<img align="right" width="300" src="../github/clone.png" alt="clonar este repositório" />
 
 Agora clone este repositório para a sua máquina. Clique no botão "_Clone or download_" e, em seguida, clique no ícone "_Copy to clipboard_" para copiar a URL.
 
@@ -23,7 +23,7 @@ git clone "url que copiou"
 
 onde "url que copiou" (sem as aspas) é a URL deste repositório (seu fork deste projeto). Consulte as etapas anteriores para obter a URL.
 
-<img align="right" width="300" src="./github/clipboard.png" alt="copiar URL" />
+<img align="right" width="300" src="../github/clipboard.png" alt="copiar URL" />
 
 Por exemplo:
 

@@ -23,3 +23,4 @@ Dentro da pasta class, você vai encontrar todo o conteúdo que foi ensinado nas
 - Faça um commit contando o que você fez: `git commit -m "feat: minha nova alteracao!"`
 - Faça um push para a sua branch: `git push origin minha-alteracao`
 - Agora é só abrir uma _pull request!_
+- Caso tenha qualquer dúvida, acesse o arquivo de contribuições. Lá você encontrará mais detalhes sobre como realizar a contribuição.
