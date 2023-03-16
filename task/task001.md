@@ -9,3 +9,7 @@
 
 - Deveria estar implementado variáveis CSS para todas as cores utilizadas na aplicação.
 - Deveria estar com a section que armazena os posts, e a estilização dos posts organizadas através de uma classe, já que posteriormente vamos adicionar novos posts.
+
+### Qual o nome da branch criada ?
+
+task001
