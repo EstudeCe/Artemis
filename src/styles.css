@@ -74,3 +74,58 @@ main > strong {
 .content-hero > small {
   font-size: 24px;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 56px;
+}
+
+section > h2 {
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #8257e6;
+}
+
+.container-post {
+  width: 1120px;
+  height: 200px;
+  display: flex;
+  gap: 32px;
+}
+
+.content-post {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-post h3 {
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #f7f4fe;
+}
+
+.content-post p {
+  font-weight: 300;
+
+  color: #f7f4fe;
+}
+
+.content-post button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 10px;
+
+  width: 100px;
+  height: 25px;
+
+  background: #8257e6;
+  border-radius: 4px;
+}
