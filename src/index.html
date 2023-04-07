@@ -37,6 +37,26 @@
       <h2>Mais recentes</h2>
     </section>
 
+    <div class="overlay" id="overlay">
+      <div class="container-modal">
+        <div class="header-modal">
+          <h2>Adicionar um novo post</h2>
+          <button onclick="handleCloseModal()">X</button>
+        </div>
+        <input type="text" placeholder="Digite o título do post" id="title" />
+        <input
+          type="text"
+          placeholder="Digite a descrição do post"
+          id="description"
+        />
+
+        <div>
+          <button onclick="handleCloseModal()">Cancelar</button>
+          <button onclick="handleAddPost()">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

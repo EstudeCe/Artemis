@@ -1,5 +1,8 @@
 const button = document.getElementById("create-post");
 const containerPosts = document.getElementById("container");
+const overlay = document.getElementById("overlay");
+const title = document.getElementById("title");
+const description = document.getElementById("description");
 
 const posts = [
   {
@@ -11,17 +14,16 @@ const posts = [
   },
 ];
 
-const text = "Esse é o primeiro post utilizando template string";
-
-function handleClickButton() {
+function handleAddPost() {
   const post = createPost(
     Math.random(),
     "https://picsum.photos/320/200",
-    "",
-    ""
+    title.value,
+    description.value
   );
 
   containerPosts.innerHTML += post;
+  handleCloseModal();
 }
 
 function createPost(id, image, title, description) {
@@ -50,6 +52,16 @@ function addPost() {
   containerPosts.innerHTML = postsFormated;
 }
 
+function handleOpenModal() {
+  overlay.style.display = "flex";
+}
+
+function handleCloseModal() {
+  overlay.style.display = "none";
+  title.value = "";
+  description.value = "";
+}
+
 addPost();
 
-button.addEventListener("click", handleClickButton);
+button.addEventListener("click", handleOpenModal);
