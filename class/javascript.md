@@ -65,3 +65,11 @@ Em um código imperativo, nós vamos dizer para o JavaScript **como** queremos q
 Agora em um código declarativo, nós vamos dizer para o JavaScript **\*o que** queremos que ele faça. No mesmo exemplo de cima, não vamos percorrer manualmente cada item do array, vamos apenas dizer para o JavaScript o que queremos que ele faça, nesse caso, percorrer o array, e não importa como ele vai fazer isso por trás dos panos.
 
 [Exemplo](https://blog.matheuscastiglioni.com.br/programacao-imperativa-x-declarativa/)
+
+### Visão geral do JavaScript
+
+[Engine](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
+
+[CallStack](https://developer.mozilla.org/pt-BR/docs/Glossary/Call_stack)
+
+[Promises](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)
