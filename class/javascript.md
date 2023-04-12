@@ -73,3 +73,7 @@ Agora em um código declarativo, nós vamos dizer para o JavaScript **\*o que** 
 [CallStack](https://developer.mozilla.org/pt-BR/docs/Glossary/Call_stack)
 
 [Promises](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+[Methods](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
+
+[Status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
