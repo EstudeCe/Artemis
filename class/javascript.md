@@ -77,3 +77,21 @@ Agora em um código declarativo, nós vamos dizer para o JavaScript **\*o que** 
 [Methods](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
 
 [Status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+
+## Fetch
+
+A API Fetch é um método nativo do JavaScript para realizar requisições para uma API. Passamos como parametro os objetos de configuração, como métodos, headers e outras informações.
+
+[Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+
+## JSON
+
+É uma forma de escrever dados e informações de maneira mais leve e fácil, utilizado para realizar a troca de informações entre servidor e client.
+
+[JSON](https://www.alura.com.br/artigos/o-que-e-json)
+
+## Funções assíncronas
+
+Declaramos as funções assíncronas com uma sintaxe um pouco diferente das funções normais, e pra isso, só precisamos passar o async/await na frente da função. Com isso, já temos uma função assíncrona. E o seu funcionamento é diferente de uma função síncrona, pois ela vai bloquear a callstack.
+
+[Async](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
