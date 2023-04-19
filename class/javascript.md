@@ -95,3 +95,29 @@ A API Fetch é um método nativo do JavaScript para realizar requisições para 
 Declaramos as funções assíncronas com uma sintaxe um pouco diferente das funções normais, e pra isso, só precisamos passar o async/await na frente da função. Com isso, já temos uma função assíncrona. E o seu funcionamento é diferente de uma função síncrona, pois ela vai bloquear a callstack.
 
 [Async](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
+
+## Try/catch
+
+O bloco try/catch determina uma resposta especifica para testar e verificar erros no código. Caso tenha algum erro, este é lançado como uma exceção, e essa exceção é resolvida no bloco catch.
+
+[Doc](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+## Equality operator
+
+Quando utilizamos esse tipo de comparação, estamos comparando somente o valor dos operandos, por exemplo:
+
+```
+'4' === 4 // true
+```
+
+[Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+
+## Strict Equality
+
+Quando utilizamos esse tipo de comparação, nós estamos comparando o tipo e o valor dos operandos, por exemplo:
+
+```
+'4' === 4 // false
+```
+
+[Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality)

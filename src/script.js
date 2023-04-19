@@ -4,15 +4,7 @@ const overlay = document.getElementById("overlay");
 const title = document.getElementById("title");
 const description = document.getElementById("description");
 
-const posts = [
-  {
-    id: Math.floor(Math.random() * 1000),
-    title: "Post sobre a importancia do treinamento de força",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erostellus, malesuada et velit iblandit molestie dolor.",
-    image: "https://picsum.photos/320/200",
-  },
-];
+const posts = [];
 
 function handleAddPost() {
   const post = createPost(
@@ -22,7 +14,20 @@ function handleAddPost() {
     description.value
   );
 
-  containerPosts.innerHTML += post;
+  if (!title.value || !description.value) {
+    alert("Você precisa preencher os campos!!");
+    return;
+  }
+
+  if (posts.length === 3) {
+    alert("Você não pode adicionar mais do que 3 posts!");
+    return;
+  }
+
+  posts.push(post);
+
+  addPost();
+
   handleCloseModal();
 }
 
@@ -45,11 +50,11 @@ function createPost(id, image, title, description) {
 }
 
 function addPost() {
-  const postsFormated = posts.map((post) => {
-    return createPost(post.id, post.image, post.title, post.description);
-  });
+  // const postsFormated = posts.map((post) => {
+  //   return createPost(post.id, post.image, post.title, post.description);
+  // });
 
-  containerPosts.innerHTML = postsFormated;
+  containerPosts.innerHTML = posts;
 }
 
 function handleOpenModal() {
@@ -62,22 +67,31 @@ function handleCloseModal() {
   description.value = "";
 }
 
-addPost();
+async function loadPosts() {
+  const title = await fetch(
+    "https://baconipsum.com/api/?type=all-meat&sentences=1&start-with-lorem=1"
+  )
+    .then((response) => response.json())
+    .then((parsed) => parsed[0]);
+
+  const description = await fetch(
+    "https://baconipsum.com/api/?type=all-meat&paras=1"
+  )
+    .then((response) => response.json())
+    .then((parsed) => parsed[0]);
+
+  const post = createPost(
+    Math.random(),
+    "https://picsum.photos/320/200",
+    title,
+    description
+  );
+
+  posts.push(post);
+
+  addPost();
+}
 
 button.addEventListener("click", handleOpenModal);
 
-function first() {
-  console.log("first");
-}
-
-function second() {
-  console.log("second");
-}
-
-function third() {
-  console.log("third");
-}
-
-first();
-setTimeout(second, 1000);
-third();
+loadPosts();
